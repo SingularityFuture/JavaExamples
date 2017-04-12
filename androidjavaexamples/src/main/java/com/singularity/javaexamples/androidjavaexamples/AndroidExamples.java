@@ -10,6 +10,12 @@ public class AndroidExamples extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_android_examples);
         fakeMain("Not used");
+
+        AndroidRunnableExamples androidRunnableExamples = new AndroidRunnableExamples();
+
+        androidRunnableExamples.handlerMessageExample();
+
+        androidRunnableExamples.handlerRunnableExample();
     }
 
     public void fakeMain(String fakeInput){

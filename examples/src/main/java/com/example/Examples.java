@@ -11,6 +11,11 @@ public class Examples implements CallbackSetup.CallbackInterface{
 
         Examples mainObject = new Examples(); // Instantiate since it's static and testCallback is not
         mainObject.testCallback(); // Call the class's method
+
+        RunnableExamples runnableExamples = new RunnableExamples();
+        runnableExamples.newThreadWithRunnable();
+
+
     }
 
     public void testCallback(){
