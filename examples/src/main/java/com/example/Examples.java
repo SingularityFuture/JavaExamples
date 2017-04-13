@@ -15,6 +15,8 @@ public class Examples implements CallbackSetup.CallbackInterface{
         RunnableExamples runnableExamples = new RunnableExamples();
         runnableExamples.newThreadWithRunnable();
 
+        LinkedListClass linkedListClass = new LinkedListClass();
+        linkedListClass.linkedSetup();
 
     }
 
